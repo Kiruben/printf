@@ -17,5 +17,7 @@ int _putchar(char);
 int _printf(const char *, ...);
 int _printc(va_list c);
 int _prints(va_list s);
+int _printd(va_list d);
+int _printi(va_list i);
 
 #endif

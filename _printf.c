@@ -11,6 +11,8 @@ int i = 0;
 print_t p[] = {
 {"c", _printc},
 {"s", _prints},
+{"d", _printd},
+{"i", _printi},
 {NULL, NULL}
 };
 while (p[i].pr != NULL)
